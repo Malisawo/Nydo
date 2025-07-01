@@ -18,7 +18,8 @@ const LOGIN_PASSWORD = process.env.AUTH_PASSWORD; // set this securely
 const APPROVED_DEVICES = [
   // Paste approved fingerprints here
   '90076ff5db599e0eacaa9de79078f43700610e98f04ee6ea3a3eab29ddf41',
- '5099ed33efc3116f60a9f69b70799dfa9a2065e6e2b57012f2fca87dd0b71631', 'd94c9043d50f836ae67104ee7ca26ce387aee0a3c9224ff145d61a797ecccd98', 'dbd2a3233618d40255da395c6269f7b2500f2ea5ca1c7b73c3a7d4bea01aaae4'
+ '5099ed33efc3116f60a9f69b70799dfa9a2065e6e2b57012f2fca87dd0b71631', 'd94c9043d50f836ae67104ee7ca26ce387aee0a3c9224ff145d61a797ecccd98', 'dbd2a3233618d40255da395c6269f7b2500f2ea5ca1c7b73c3a7d4bea01aaae4',
+ '31c1d872e2ef3230fa35026d8d437f7b75b5e93f9b41b6cbf78ed5061b16165f'
 ];
 
 function createFingerprint(deviceInfo, headers) {
