@@ -1,0 +1,26 @@
+{
+  "name": "nydo-crawler",
+  "version": "2.5.0",
+  "description": "Node.js app with authentication for Railway deployment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "authentication",
+    "railway"
+  ],
+  "author": "Nydo",
+  "license": "MIT",
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pdfjs-dist": "^5.3.31"
+  }
+}
