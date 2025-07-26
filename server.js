@@ -55,9 +55,9 @@ app.post('/api/auth', (req, res) => {
  // console.log(`🔐 Auth attempt fingerprint: ${fingerprint} at ${new Date().toISOString()}`);
   
   // ✳️ TEMPORARY: Enable this block to add fingerprints dynamically
- /*  if (!APPROVED_DEVICES.includes(fingerprint)) {
+   if (!APPROVED_DEVICES.includes(fingerprint)) {
     APPROVED_DEVICES.push(fingerprint);
-  } */
+  } 
 
   if (!APPROVED_DEVICES.includes(fingerprint))  {
     console.log(`❌ Unauthorized fingerprint at login: ${fingerprint}`)
